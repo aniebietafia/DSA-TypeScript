@@ -1,0 +1,20 @@
+{
+  "name": "DSA-TypeScript",
+  "packageManager": "yarn@4.3.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node src/index.ts",
+    "build": "yarn tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "volta": {
+    "node": "20.15.1",
+    "yarn": "4.3.1"
+  }
+}
