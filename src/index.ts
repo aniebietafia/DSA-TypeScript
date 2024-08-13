@@ -2,6 +2,7 @@ import { LinearSearch } from "./algorithms/1-LinearSearch";
 import { BinarySearch } from "./algorithms/2-BinarySearch";
 import { TwoCrystalBalls } from "./algorithms/3-TwoCrystalBalls";
 import { BubbleSort } from "./algorithms/4-BubbleSort";
+import twoSum from "./problems/1-twoSum";
 
 const haystack = [1, 2, 3, 4, 5, 6];
 const needle = 4;
@@ -15,3 +16,4 @@ console.log("Linear Search: ", linear_inputs.linear_search());
 console.log("Binary Search: ", binary_inputs.bs_list());
 console.log("Two Crystal Balls: ", two_crystal.two_crystal_balls());
 console.log("Bubble Sort: ", bubbleSort.bubble_sort());
+console.log("Two Sum: ", twoSum([3, 0, 2, 7, 6, 8], 5);
